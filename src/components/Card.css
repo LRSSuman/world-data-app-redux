@@ -1,0 +1,26 @@
+.card {
+    width: 300px;
+    margin: 20px 0;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.card > img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-title {
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+
+.card-body > h4,
+.card-body > p {
+    padding: 5px;
+}
+
+.card-body > p:last-child {
+    padding-bottom: 20px;
+}

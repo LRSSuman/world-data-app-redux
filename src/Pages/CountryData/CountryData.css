@@ -1,0 +1,37 @@
+.countryData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countryData > img {
+    width: 500px;
+    object-fit: contain;
+}
+
+.countryData-body {
+    margin: 20px 0;
+}
+
+.countryData-body > h3 {
+    padding: 10px 0;
+}
+
+.countryData-body span {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.countryData-body > button {
+    outline: none;
+    background: honeydew;
+    color: black;
+    font-weight: bold;
+    border: 1px solid blueviolet;
+    border-radius: 16px;
+    padding: 5px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
